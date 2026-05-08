@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+		body {
+			margin: 0;
+			padding: 16px;
+			width: 280px;
+			background: #1e262c;
+			color: white;
+			font-family: sans-serif;
+		}
+
+		.popup {
+			display: flex;
+			flex-direction: column;
+			gap: 12px;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="popup">
+			<h1>NSFW Filter</h1>
+
+			<label>
+				<input id="enabled" type="checkbox">
+				Enabled
+			</label>
+
+			<label>
+				<input id="strictMode" type="checkbox">
+				Strict mode
+			</label>
+
+			<p id="blocked"></p>
+		</div>
+
+		<script type="module" src="./index.js"></script>
+	</body>
+</html>

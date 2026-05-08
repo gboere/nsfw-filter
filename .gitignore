@@ -1,0 +1,4 @@
+dist/src
+dist/vendor
+node_modules
+bun.lock

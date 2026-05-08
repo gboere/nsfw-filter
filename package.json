@@ -1,0 +1,36 @@
+{
+	"name": "nsfw-filter",
+	"version": "3.0.0",
+	"description": "Free, open source, and privacy-focused browser extension to block \"not safe for work\" content.",
+	"scripts": {
+		"clean": "bunx rimraf dist/src && bunx rimraf dist/vendor",
+		"build": "bun run clean && bun run build.ts",
+	},
+	"author": {
+	},
+	"contributors": [
+		{
+			"name": "Navendu Pottekkat",
+			"email": "navendu@apache.org",
+			"url": "https://navendu.me"
+		},
+		{
+			"name": "Yegor Zaremba",
+			"url": "https://github.com/yegorzaremba"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"homepage": "",
+	"license": "GPL-3.0-only",
+	"dependencies": {
+		"@tensorflow/tfjs": "^4.22.0",
+		"nsfwjs": "^4.0.0"
+	},
+	"devDependencies": {
+		"typescript": "^5.8.3",
+		"web-ext": "^8.4.0"
+	}
+}
