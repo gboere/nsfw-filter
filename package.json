@@ -4,7 +4,7 @@
 	"description": "Free, open source, and privacy-focused browser extension to block \"not safe for work\" content.",
 	"scripts": {
 		"clean": "bunx rimraf dist/src && bunx rimraf dist/vendor",
-		"build": "bun run clean && bun run build.ts",
+		"build": "bun run clean && bun run build.ts"
 	},
 	"author": {
 	},
@@ -27,10 +27,10 @@
 	"license": "GPL-3.0-only",
 	"dependencies": {
 		"@tensorflow/tfjs": "^4.22.0",
-		"nsfwjs": "^4.0.0"
+		"nsfwjs": "^4.3.0"
 	},
 	"devDependencies": {
-		"typescript": "^5.8.3",
-		"web-ext": "^8.4.0"
+		"typescript": "^6.0.3",
+		"web-ext": "^10.3.0"
 	}
 }
